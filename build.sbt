@@ -13,3 +13,5 @@ libraryDependencies ++= Seq(
   "net.databinder" %% "unfiltered-jetty" % "0.8.1",
   "net.databinder" %% "unfiltered-specs2" % "0.8.1" % "test"
 )
+
+initialCommands := "import example._; import unfiltered.request._; import unfiltered.response._"
